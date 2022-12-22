@@ -3,7 +3,7 @@ Backend Engineer Take Home Test
 
 ## Installation Guide
 This solution is built using `Node.js` and requires at least `v18.12.1`. This version was used as it is the recommended version for most users (per [NodeJS Docs](https://nodejs.org/en/ at the time of writing 12/22/22)). Further, Node 18 began supporting `fetch`, natively as it used to have to be imported via the [node-fetch](https://www.npmjs.com/package/node-fetch) package.
-**_Note_: the script will display a warning message when fetch is invoked as it is being treated as an experimental feature in this version of Node.**
+- **_Note_: the script will display a warning message when fetch is invoked as it is being treated as an experimental feature in this version of Node.**
 
 
 Build docker image for the project 
@@ -30,9 +30,9 @@ npm run test
 ## Example Usage
 
 The solution can run two separate commands, a) fetch b) metadata.
-**_Note_: a file `input.txt` is supplied as a sample for testing a) and b).**
-**_Note_: both commands will generate a folder with the appropriate contents for the domain(s) entered as part of the arguments.**
-**_Note_: the below commands can alternatively be ran by replacing `./fetch` with `node src/index.mjs` (i.e.`node src/index.mjs https://www.google.com`).**
+- **_Note_: a file `input.txt` is supplied as a sample for testing a) and b).**
+- **_Note_: both commands will generate a folder with the appropriate contents for the domain(s) entered as part of the arguments.**
+- **_Note_: the below commands can alternatively be ran by replacing `./fetch` with `node src/index.mjs` (i.e.`node src/index.mjs https://www.google.com`).**
 ### Fetch
 ```
 ./fetch https://www.google.com https://www.example.com https://www.wikipedia.com
