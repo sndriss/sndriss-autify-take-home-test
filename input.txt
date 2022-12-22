@@ -1,0 +1,5 @@
+./fetch https://www.google.com https://www.example.com https://www.wikipedia.com
+./fetch --metadata https://www.google.com https://www.example.com https://www.wikipedia.com
+
+node src/index.mjs https://www.google.com https://www.example.com https://www.wikipedia.com
+node src/index.mjs --metadata https://www.google.com https://www.example.com https://www.wikipedia.com

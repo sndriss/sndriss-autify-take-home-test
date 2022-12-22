@@ -1,0 +1,28 @@
+{
+  "name": "autify-take-home-test",
+  "version": "1.0.0",
+  "description": "Autify Backend Engineer Take Home Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./test -name '*.test.mjs' | xargs mocha --exit -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sndriss/autify-take-home-test.git"
+  },
+  "author": "Samy Nakayama Driss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sndriss/autify-take-home-test/issues"
+  },
+  "engines": {
+    "node": "^18.12.1",
+    "npm": "9.2.0"
+  },
+  "homepage": "https://github.com/sndriss/autify-take-home-test#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jsdom": "^20.0.3",
+    "mocha": "^10.2.0"
+  }
+}
