@@ -2,7 +2,9 @@
 Backend Engineer Take Home Test
 
 ## Installation Guide
-This solution is built using `Node.js` and requires at least `v18.12.1`.
+This solution is built using `Node.js` and requires at least `v18.12.1`. This version was used as it is the recommended version for most users (per [NodeJS Docs](https://nodejs.org/en/ at the time of writing 12/22/22)). Further, Node 18 began supporting `fetch`, natively as it used to have to be imported via the [node-fetch](https://www.npmjs.com/package/node-fetch) package.
+**_Note_: the script will display a warning message when fetch is invoked as it is being treated as an experimental feature in this version of Node.**
+
 
 Build docker image for the project 
 ```
