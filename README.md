@@ -55,6 +55,7 @@ The `CommandLine` class is responsible for handling the different input.
 **For this solution, I opted to not leverage 3rd party libraries (except for testing) as the objective of the assignment would be written concisely (i.e. Puppeteer) otherwise and would not demonstrate sufficient implementation on my part if done so**
 
 That said, some assumptions were made for the assignment namely:
+- Cannot use HTML parser (though 3rd party libraries are permitted) - `jsdom` is used inside of the test cases to validate the accuracy of the regex matchers
 - When counting images that are displayed, the script only accounts for `<img>` tags i.e. CSS `url` references, `<svg>` or otherwise are not included in the count
 - Likewise, when counting links, this only accounts for `<a>` tag and not those HTML elements that could are invoked as links via Javascript
 - The script only downloads img assets for relatively referenced files i.e. not `http://google.com/test-image` but `/test-image` instead
